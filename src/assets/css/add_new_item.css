@@ -1,0 +1,421 @@
+.form-group .checkbox label, .form-group .radio label, .form-group label {
+    font-weight: bold;
+    color: gray;
+}
+
+.allergHeader {
+    color: #fff;
+    padding: 1em 0;
+    font-size: 14px;
+}
+
+.bg_green {
+    background: #97BE2E;
+    margin-top: 25px;
+}
+
+.checkbox input + span {
+    background: #9AC034;
+    content: "";
+    display: inline-block;
+    margin: 0 .5em 0 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 2em;
+    height: 2em;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+.checkbox input + span {
+    border-radius: 2px;
+}
+
+.checkbox input[type="checkbox"], .checkbox input[type="radio"] {
+    opacity: 0;
+    z-index: 1;
+}
+
+.checkbox input + span::after {
+    background: url(../img/download.png) no-repeat center;
+    background-size: contain;
+    width: 2em;
+    height: 2em;
+}
+
+.checkbox input + span::after {
+    content: "";
+    display: block;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+}
+
+.checkbox {
+    position: relative;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.checkbox input:checked + span::after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.checkbox input:active + span {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.col-md-12.brd-btm_grey h5{
+    color: #18293b;
+    font-size: 14px;
+    font-family: Poppins,sans-serif;
+}
+
+.radio input + span {
+    border-radius: 50%;
+}
+
+.radio input + span {
+    background: #9AC034;
+    content: "";
+    display: inline-block;
+    margin: 0 .5em 0 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 2em;
+    height: 2em;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+.radio input + span::after {
+    background: url(../img/download2.png) no-repeat center;
+    background-size: contain;
+    width: 2em;
+    height: 2em;
+}
+
+.radio:hover input + span {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.radio input + span {
+    border-radius: 50%;
+}
+
+.radio {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+.checkbox input[type=radio], .checkbox input[type=checkbox], .radio input[type=radio] {
+    opacity: 0;
+    z-index: 1;
+}
+.radio input {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+}
+.radio input:checked + span::after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.radio input + span::after {
+    content: "";
+    display: block;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+}
+
+#addItem .checkbox {
+    font-size: 1.3rem;
+}
+
+#addCategory table .radio, #addItem .checkbox {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.col-xs-3 .form-group{
+	margin: 0
+}
+
+.col-xs-3 .form-group label{
+	padding: 0
+}
+
+.bg_green {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #9ac034!important;
+    border-color: #9ac034!important;
+    color: #ffffff!important;
+    transition: all 0.3s ease 0s;
+}
+
+.modal-footer .btn+.btn {
+    margin-bottom: 0!important;
+    margin-left: 5px!important;
+    margin: 0!important;
+
+}
+
+a.btn.btn-secondary{
+    background-color: inherit!important;
+    box-shadow:inherit!important ;
+    color: #9ac034!important;
+}
+
+.modal-footer {
+    text-align: right!important;
+    border-top: 1px solid #e5e5e5!important;
+}
+
+.checkmark-food-n{
+    position: absolute;
+    top: 3px;
+    height: 22px;
+    width: 22px;
+    background-color: #fff;
+    left: 0px;
+    border: 1px solid #9E9E9E;
+}
+
+span.check-txt{
+    position: relative;
+    top: 5px;
+    left: 12px;
+    cursor: pointer;
+    font-size: 12px
+}
+
+.popup-check-area{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+
+.Cus-checkbox input + span::after {
+    background: url(../img/download.png) no-repeat center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.Cus-checkbox input + span::after {
+    content: "";
+    display: block;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+}
+
+.checkbox-food input[type=radio], .checkbox-food input[type=checkbox], .radio input[type=radio] {
+    opacity: 0;
+    z-index: 1;
+}
+
+.Cus-checkbox input:checked + span::after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/* Round radio type css*/
+
+
+.Cus-checkbox2 input + span::after {
+    background: url(../img/black-round.png) no-repeat center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    top: 4px;
+    left: 4px;
+    position: relative;
+}
+
+.Cus-checkbox2 input + span::after {
+    content: "";
+    display: block;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+}
+
+.checkbox-food input[type=radio], .checkbox-food2 input[type=checkbox], .radio input[type=radio] {
+    opacity: 0;
+    z-index: 1;
+}
+
+.Cus-checkbox2 input:checked + span::after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.checkmark-food-n2{
+    position: absolute;
+    top: 3px;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    left: 0px;
+    border: 1px solid #9E9E9E;
+}
+
+.popup-chek-main{
+    overflow: hidden;
+    background: #ECF0F5;
+    border-top: 3px solid #1ABC9C;
+    border-radius: 3px;
+}
+
+.fst-check{
+    margin-top: 10px;
+}
+
+.lst-check{
+    margin-bottom: 30px;
+}
+
+label.Cus-checkbox, label.Cus-checkbox2{
+    height: 35px
+}
+
+.popup-check-area{
+    border-bottom: 1px solid #ddd;
+    margin: 10px 15px; 
+}
+
+label.btn.btn-secondary.active.focus{
+    background-color: #70ad47;
+    border-color: #70ad47;
+    color: #fff;
+}
+
+
+label.btn.btn-primary.active{
+/*    background-color: #70ad47;
+    border-color: #70ad47;*/
+}
+
+label.btn.btn-secondary{
+    color: #333;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px 13px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    outline: inherit!important;
+}
+
+label.btn.btn-secondary.custom{
+    margin: 0 3px;
+}
+
+label.btn.btn-secondary.custom2{
+    margin: 0 5px;
+}
+
+ .btn-group>.btn.btn-secondary.custom:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 5px
+} 
+
+.btn-group>.btn.btn-secondary.custom2:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 5px
+}
+
+.btn-group>.btn.btn-secondary.custom:last-child:not(:first-child){
+    border-radius: 5px
+}
+.btn-group>.btn.btn-secondary.custom2:last-child:not(:first-child){
+    border-radius: 5px
+}
+img.flag-ger{
+    width:20px;
+}
+
+h5.food-aller{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.popup-chek-main ul{
+        margin-top: 6px;
+    margin-bottom: 6px;
+}
+.popup-chek-main ul li{
+    padding: 8px;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+label.custom-btn {
+    color: #333;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px 13px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    outline: inherit!important;
+}
+label.white-space {
+    white-space: inherit;
+}
+
+.br-bott{
+    border-bottom: 1px solid #ddd;
+}
+
+.mrgin{
+    margin: 0;
+}
+
+input.hidden:checked + div{
+  background-color: #70ad47;
+  color: white;
+}
+
+
+.btn-custom{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px 13px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #333;
+    cursor: pointer;
+}
+
+.popup-check-area label{
+    margin: 0px 3px;
+    margin-bottom: 7px;
+}
+
+.sng-price{
+    margin-bottom: 15px!important;
+     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}

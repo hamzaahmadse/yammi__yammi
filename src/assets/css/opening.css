@@ -1,0 +1,108 @@
+h5.shop-heading{
+	font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+table.openingtbl{
+	width: 100%;
+    margin-bottom: 15px;
+}
+
+tr.openingtblh th{
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr.openingtblr td input {
+    width: 40%;
+    float: left;
+}
+
+tr.openingtblr td span{
+    float: left;
+    width: 10%;
+    text-align: center;
+    margin: 6px 8px;
+}
+
+a.btn-primary {
+    background-color: #00B1E0!important;
+    border-color: #00B1E1!important;
+    color: white!important;
+}
+
+tr.openingtblr td{
+	font-size: 13px;
+}
+
+.btn.btn-xs{
+    padding: 4px 10px!important;
+    margin-left: 10px;
+}
+
+.contain-bg{
+	background: #fff;
+}
+
+ul.custom-timepicker-ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-y: scroll;
+    height: 220px;
+    width: 139px;
+}
+
+.custom-timepicker ul li{
+   margin-right: 5px;
+}
+
+.custom-timepicker ul li a{
+    border: 1px solid transparent;
+    color: #222;
+    display: block;
+    padding: 8px 5px;
+}
+
+.custom-timepicker ul li a:hover{
+	background: #DADADA;
+	border: 1px solid #999;
+	color: #212121!important;
+}
+
+.custom-timepicker{
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 15px;
+    background-color: #FFF;
+    border: 1px solid #AAA;
+    color: #222;
+    margin: 0;
+    padding: 2px;
+    width: 123px;
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 30px;
+    border-top: none;
+    z-index: 9999
+}
+
+.custom-timepicker{
+	display: none
+}
+
+.custom-t-main,.custom-t-main2,.custom-t-main3{
+	position: relative;
+}
+
+tr.custom-time{
+    position: relative;
+}

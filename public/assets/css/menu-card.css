@@ -1,0 +1,957 @@
+.left-menu-section{
+	margin-top: 20px;
+	background: #fff;
+}
+
+.btn.btn-primary.mrgn10-0{
+	padding: 6px 12px;
+	border-radius: 3px;
+}
+
+i.fa.fa-plus{
+	top: 1px!important;
+	font-size: 14px!important;
+}
+
+a.categoryOptions{
+	position: absolute;
+    right: 6px;
+    top: 10px;
+}
+
+.cog-block{
+	position: absolute;
+    top: 0;
+    right: 0;
+    height: 31px;
+}
+
+.category {
+    padding: 10px 0;
+    border-bottom: 1px solid #D6D6D6;
+    position: relative;
+}
+
+.pdng0 img{
+
+}
+
+h6.pizza-h6{
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+h6.pizza, p.B123{
+	font-size: 12px;
+}
+
+p.B123{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+small{
+	color: grey;
+	font-family: Poppins;
+    font-weight: 300!important;
+    font-size: 12px;
+}
+
+.fixed-bothsidebar-content{
+	margin-top: 20px;
+}
+
+.all-tabs {
+	padding-left: 0;
+    background-color: #F6F9FD;
+    border-bottom: 1px solid #DDD;
+    border-top: 6px solid #9AC034;
+    overflow: hidden;
+}
+
+.nav-tabs {
+    background: #F6F9FD!important;
+    border: 0;
+    border-radius: 0px!important;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-tabs > li.active > a {
+    background: #fff !important;
+    color: #9ac034!important;
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid #f3f3f3!important;
+}
+
+.nav-tabs>li>a{
+	border-radius:  0;
+	color: #000 !important;
+}
+.nav-tabs>li>a:hover{
+	color: #9ac034 !important;
+}
+
+
+.text-center.pdng5-0 .btn{
+	padding: 6px 12px;
+	border-radius: 3px;
+	margin: 6px 0;
+}
+
+.form-group.is-empty{
+	margin: 4px 0;
+	padding-bottom: 0;
+}
+
+.submit-form .form-control {
+    background-color: #f3f6f9;
+    background-image: none;
+    border: 1px solid #eceff2;
+    border-radius: 0;
+    box-shadow: none;
+    color: #656565;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.menuCardItem{
+	overflow: hidden;
+	margin-top: 5px!important;
+}
+
+.menuCard-Item{
+	overflow: hidden;
+    border: 1px solid #ddd;
+    background: #fff;
+    position: relative;
+}
+
+.menuCardItem h4 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 5px auto 10px;
+}
+
+.menuCardContent {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+
+.imgWrapper{
+	overflow: hidden
+}
+
+.priceItemWrap:before, .priceItemWrap:after {
+    background: #D6D6D6;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 80%;
+    width: 1px;
+    top: 18%;
+}
+
+.priceItemWrap:before {
+    left: 0;
+}
+
+.priceItemWrap:after {
+    right: 0;
+}
+
+.priceItemValue {
+    padding: 2px 6px;
+    background: #357bb7;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.priceItem {
+    margin: 0 auto 8px;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    vertical-align: middle;
+}
+
+.foodIcons img {
+    margin: 0 3px;
+}
+
+.brd-rad4 {
+    border-radius: 4px;
+}
+
+.pdng2-4 {
+    padding: 2px 4px;
+}
+
+span.bg_light-grey.brd-rad4.pdng2-4{
+	color: grey;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+p.foodIcons{
+	margin-bottom: 8px!important;
+}
+
+.cd-filter-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tableOptions {
+    color: #fff;
+    z-index: 3;
+    background: #9AC034;
+    padding: 5px;
+    border-bottom-left-radius: 15px;
+    font-size: 1.9rem;
+}
+
+.tableOptions.closed a, .tableOptions a, .tableOptions a:focus {
+    color: #fff!important;
+   	font-size: 15px;
+}
+
+.fa-star, .fa-star-half-o {
+    color: #ffd800;
+}
+
+.sidebarHeader span {
+    line-height: 11px;
+    display: inline-block;
+}
+.s-star-fa {
+    margin: 10px!important;
+    display: block;
+    font-size: 15px;
+}
+
+a.remove {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.modal-open .modal {
+    background-color: rgba(0,0,0,.6);
+    opacity: 1!important;
+}
+
+.modal:before {
+    height: auto!important;
+}
+
+.modal-title {
+    font-size: 18px;
+    color: #18293b;
+    font-weight: 500;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .5;
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5!important;
+}
+
+.modal-content .modal-header{
+	margin:0;
+	padding: 15px;
+}
+
+.modal .modal-header .close {
+    color: gray;
+}
+
+
+.uploadPreview {
+    display: inline-block;
+    max-width: 250px;
+    width: auto;
+    max-height: 160px;
+    height: auto;
+    border: 2px solid #88BB09;
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+label.cat-img{
+    color: grey;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: 600;
+
+}
+
+.cat-form-g{
+    display: block;
+    margin: 0;
+}
+
+
+
+/* Select option Css*/
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  border: 1px solid #d5d5d5;
+      border-radius: 3px!important;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 5px;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-color: #888 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #888 transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+    padding: 8px 16px;
+    cursor: pointer;
+    user-select: none;
+    color: #999;
+    font-size: 14px;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  top: 103%;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  border: 1px solid #d5d5d5;
+  border-top: none;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: #5897FB;
+  color: #fff!important;
+}
+
+
+select{
+  color: #999;
+  font-size: 15px;
+  line-height:25px;
+  border-radius: 3px!important
+}
+
+select option{
+    padding: 10px;
+}
+
+label{
+  font-weight: bold;
+  color: gray;
+}
+
+input[type="text"]{
+  border-radius: 3px!important;
+    padding: 8px
+}
+
+.form-group.is-empty input[type="text"]{
+  height: 36px!important;
+}
+
+.form-control, .form-group .form-control{
+   border: 1px solid #ccc;
+   background-image: inherit;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    display: block;
+}
+
+a.sa_cl{
+    color: #97be2e;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+a.sa_cl:hover{
+    color: #97be2e!important;
+}
+
+a.saveNcat{
+    background: #97be2e;
+    font-size: 14px;
+    padding: 6px 12px;
+    color:#fff;
+    border-radius: 3px;
+}
+
+
+a.saveNcat:hover{
+    background-color: #242424;
+    border-color: #242424!important;
+    color: #ffffff!important;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+/*
+=============
+ Modal CSS
+=============
+*/
+
+.extr-header{
+  background: #97BE2E;;
+}
+
+h4.extra-h4{
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+button.extra-close{
+  left: -41px;
+  position: absolute;
+  background: #E56A00;
+  padding: 10px 15px;
+  top: 2px;
+  opacity: inherit;
+  color: #000!important;
+}
+
+.extr-modal-dio{
+  width: 1200px;
+  margin: 0 0 0 150px;
+  margin-top: 25px!important;
+}
+
+.food-btn{
+  background: #f5f5f5;
+    padding: 12px;
+    border-left: 4px solid #FF7D52;
+}
+
+input.checkbox-food{
+  position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark-food {
+  position: absolute;
+    top: 10px;
+    right: 10px;
+  height: 22px;
+  width: 22px;
+  background-color: #fff;
+  border: 1px solid #9E9E9E;
+}
+
+input.checkbox-food:checked ~ .checkmark-food::after {
+  background-color: #686a6b;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    content: '';
+    padding: 7px;
+}
+
+.food-btn label{
+  cursor: pointer;
+  margin-bottom: 0;
+  line-height: inherit;
+}
+
+.extra-pdd-ar{
+  padding-right: 0;
+}
+
+.food-second-row{
+  margin-top: 10px;;
+  margin-right: 0;
+}
+
+.mright{
+   margin-right: 0;
+}
+
+.food-section-title{
+  background: #00BFFF;
+  margin-top: 10px;
+}
+
+.food-section-title h2{
+  text-align: left;
+  margin-left: 15px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.select-all-btn{
+  background: #fff;
+  width: 105px;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+
+.checkmark-all{
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  background-color: #fff;
+  border: 1px solid #9E9E9E;
+  left: 8px;
+  top: 4px;
+}
+
+.select-all{
+  float: right;
+}
+
+.select-all-btn label{
+  font-weight: normal;
+  color: #000;
+  margin: 0;
+  padding: 5px;
+  line-height: inherit;
+}
+
+input.checkbox-all:checked ~ .checkmark-all::after {
+  background-color: #686a6b;
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  content: '';
+  padding: 4px;
+}
+
+input.checkbox-all{
+  position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+span.slt-all{
+  position: relative;
+  left: 8px;
+}
+
+.food-extra-second{
+  background: #F3F3F3;
+}
+
+
+input.checkbox-add:checked ~ .checkmark-add::after {
+  background-color: #686a6b;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  content: '';
+  padding: 3px;
+}
+
+input.checkbox-add{
+  position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark-add{
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  background-color: #fff;
+  border: 1px solid #9E9E9E;
+  right: 4px;
+  top: 6px;
+}
+
+
+span.slt-add{
+  position: relative;
+  right: 9px;
+  font-size: 12px;
+}
+
+.select-add-btn {
+  background: #fff;
+  position: relative;
+  width: 100px;
+  display: inline-block;
+  margin: 7px 2px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.select-add-btn label{
+  cursor: pointer;
+  margin-bottom: 0;
+  line-height: inherit;
+  padding: 5px;
+}
+
+.food-form-css{
+  width: 15%;
+  background: #fff;
+  padding: 0!important;
+  display: inline-block;
+  margin: 5px 0 10px 0!important;
+}
+
+.amount-area{
+  display: inline-block;
+  background: #f3f3f3;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0px 5px;
+  border-right: 0;
+  margin-left: 10px;
+  position: relative;
+  left: 3px;
+}
+.amount-area a{
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.food-entries-d{
+  text-align: left;
+}
+
+select.custom-slt{
+  height: 28px!important
+}
+
+
+.food-form-css select{
+  border-radius: 0px 3px 3px 0px!important;
+}
+
+.scroll-from-2 {
+  overflow-y: scroll;
+  height: 457px;
+  position: relative;
+  width: 790px;
+  overflow-x: hidden;
+}
+
+.scroll-from-1{
+  overflow: hidden;
+  width: 773px;
+}
+
+.sltright-add{
+  background: #fff;
+  position: relative;
+  width: 53px;
+  display: inline-block;
+  margin: 7px 2px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #616161;
+  padding: 3px;
+  text-align: center;
+}
+
+.right-add-main p{
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #737373;
+}
+
+
+
+input.checkbox-left:checked ~ .checkmark-left::after {
+  background-color: #686a6b;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  content: '';
+  padding: 3px;
+}
+
+input.checkbox-left{
+  position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark-left{
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #9E9E9E;
+    right: 8px;
+    top: -26px;
+}
+
+.lef1-section{
+  position: relative;
+}
+
+.right1-section{
+  text-align: left;
+}
+
+.lef1-section{
+   text-align: left;
+   margin: 0 0px 0px 5px;
+}
+
+.chec-new{
+  right: 9px;
+  top: 12px;
+}
+
+.new-slt{
+  left: -2px;
+}
+
+.new-add-chec{
+  left: 7px;
+}
+
+.right-add-main{
+  text-align: left;
+}
+
+.slt-ne-btn{
+  text-align: right;
+}
+
+.food-btn2{
+  background: #F9F9F9;
+    height: 4px;
+}
+
+.category-first{
+  border-left: 4px solid #FF7D52;
+  border-right: 2px solid #F9F9F9;
+}
+
+.lef1-section label{
+  margin-bottom: 0;
+}
+
+.select-add-btn.slt-ne-btn{
+  margin: 0 0px 0px 7px;
+  margin-bottom: 5px;
+}
+
+
+input.checkbox-3 {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark-3 {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #9E9E9E;
+    right: 9px;
+    top: 18px;
+}
+
+.food-btn-2{
+    position: relative;
+    margin-top: 7px;
+    border-left: 4px solid #00BFFF;
+    border-right: 2px solid #F9F9F9;
+}
+
+input.checkbox-3:checked ~ .checkmark-3::after {
+    background-color: #686a6b;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    content: '';
+    padding: 3px;
+}
+
+.cate-2ne-item{
+      background: #F9F9F9;
+    height: 4px;
+}
+
+.cate-2n-item{
+      background: #F9F9F9;
+    height: 2px;
+}
+
+.food-btn-2 label{
+  padding: 12px
+}
+
+.food-en-new{
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+
+.food-form-css{
+  width: 125px;
+  position: relative;
+}
+
+span.slt-2{
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 4px 5px;
+  margin: 9px;
+  font-size: 16px;
+  position: relative;
+  top: 1px;
+  font-weight: 600;
+  color: #717171;
+}
+
+span.slt-1{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.small-add-btn{
+  background: #fff;
+  position: relative;
+  width: 135px;
+  display: inline-block;
+  margin: 8px 2px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+span.slt-3{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.medium-add{
+  width:150px;
+}
+
+.right-sm-btn-area{
+  position: relative;
+  left: 19%;
+  bottom: 5px;
+}
+
+.ui.button {
+
+  }
+
+.two.wide.field{
+    width: 35%;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#btn-extra{
+    position: absolute;
+    right: 0px;
+    top: 31px;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+.plus-btn{
+    position: absolute;
+    right: -45px!important;
+    top: 21px!important;
+    padding: 4px 8px!important;
+    box-shadow: none!important;
+}
+
+
+.fieldGroup{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button#add-morebtn{
+    position: absolute;
+    right: -10px;
+    top: 16px;
+    z-index: 9999;
+    padding: 8px 9px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+.ui.form{
+  position: relative;
+  right: 40px;
+}

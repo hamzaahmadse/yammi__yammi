@@ -1,28 +1,48 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div id="app">
+  <div class="wrapper">
+    <!--side bar start -->
+    <SideBar />
+    <!--side bar end-->
+    <div class="main-panel">
+      <NavBar />
+      <div class="content">
+            <router-view></router-view>
+      </div>
+    </div>
   </div>
+<!--  <router-view/>-->
+</div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<style lang="scss">
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
+  /*@import "./../public/inc_bundle.scss";*/
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+#nav {
+  padding: 30px;
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
 }
 </style>
+
+<script>
+  import SideBar from '@/components/SideBar.vue'
+  import NavBar from '@/components/NavBar.vue'
+  export default {
+    components: {
+      SideBar, NavBar
+    }
+  }
+</script>

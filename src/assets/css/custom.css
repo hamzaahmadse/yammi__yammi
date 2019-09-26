@@ -1,0 +1,101 @@
+
+.modal.right .modal-dialog {
+    height: 100%;
+    margin: auto;
+    position: fixed;
+    transform: translate3d(0%, 0px, 0px);
+    width: 90%;
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+}
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    transition: opacity 0.3s linear 0s, right 0.3s ease-out 0s;
+}
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+.modal.right .modal-content {
+    border: 0 none !important;
+    border-radius: 0 !important;
+    height: 100%;
+    overflow-y: auto;
+}
+.modal.right .modal-header {
+    border-radius: 0;
+}
+.modalProjectHeader {
+    font-size: 1.1em;
+    font-weight: 600 !important;
+    line-height: 1;
+    margin-bottom: 7px;
+    margin-top: -5px;
+}
+.modal-body.h100>h3 {
+    margin: 0 0 10px;
+    font-weight: 400 !important;
+}
+
+.header{
+	margin-top: 0px!important;
+    border-bottom: none !important; 
+}
+
+.header img{
+	margin-top: 18px
+}
+
+.page-heading h3{
+	font-size: 24px;
+}
+
+.page-heading:hover{
+	text-decoration: none;
+}
+
+.identity p {
+    font-size: 15px;
+	color: grey;
+	margin-top: 50px;
+}
+
+.status table tbody{
+	color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#main-content h3{
+	font-size: 24px
+}
+
+#main-content table{
+	color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+ tr.border_top{
+	color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+} 
+
+tbody tr td{
+    font-size: 15px;
+}
+ 
+.bottom-table table{
+	color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+page {
+    margin-bottom: 0!important; 
+}

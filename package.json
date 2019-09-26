@@ -9,16 +9,36 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "bootstrap": "^3.3.7",
+    "chartist": "^0.11.4",
+    "dropd": "^0.4.0",
+    "eslint-loader": "^2.1.2",
+    "jquery": "^3.4.1",
+    "material": "^0.4.1",
+    "material-dashboard": "^1.2.0",
+    "moment": "^2.24.0",
+    "popper.js": "^1.15.0",
+    "select2": "^4.0.10",
+    "shebang-loader": "0.0.1",
+    "string-replace-loader": "^2.2.0",
+    "vue-router": "^3.0.3",
+    "vue-style-loader": "^4.1.2",
+    "vue2-perfect-scrollbar": "^1.2.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
     "babel-eslint": "^10.0.1",
+    "css-loader": "^3.2.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.0"
   },
   "eslintConfig": {
     "root": true,

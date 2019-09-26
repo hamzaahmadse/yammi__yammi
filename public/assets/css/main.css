@@ -1,0 +1,513 @@
+/* Left Section CSS */
+
+.brd_grey_1px {
+    border: 1px solid #D6D6D6;
+}
+
+.brd-rad4 {
+    border-radius: 4px;
+}
+
+.mrgn20-0 {
+    margin: 20px 0;
+}
+
+.customerPanel h4 {
+	font-family: Poppins,sans-serif;
+    font-weight: 400;
+    color: #18293b;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.brd-btm_grey {
+    border-bottom: 1px solid #D6D6D6 !important;
+}
+
+.pdng10-2 {
+    padding: 10px 2px;
+}
+
+.mrgn0 {
+    margin: 0 !important;
+}
+
+.bg_light-grey {
+    background: #ededed;
+}
+
+.customerPanelValue {
+    font-weight: 600!important;
+    font-size: 22px;
+    padding: 30px 0;
+    color: #000;
+    background-color: #fff;
+    border-radius: 0px 0px 5px 5px;
+}
+/* End Left Section CSS */
+
+
+/* Start center Section CSS */
+.customerTable {
+    margin: 20px 0;
+}
+
+.customerTable table {
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+}
+
+.customerTable table thead {
+    text-align: center;
+    font-weight: 600;
+}
+
+.customerTable table th {
+    color: #fff;
+    text-align: center;
+    padding: 20px 15px;
+    border: 1px solid #fff;
+    background: #97BE2E;
+}
+
+.customerTable table td {
+    border: 1px solid #f4f4f4;
+    padding: 10px 5px;
+    text-align: center;
+    background: #fff;
+}
+
+.customerTable table {
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    font-family: sans-serif;
+}
+/* End center Section CSS */
+
+
+/* Start Right Section CSS */
+.brd_green_1px {
+
+}
+
+.customerPanel h4 {
+    font-weight: 400;
+}
+.fs14 {
+    font-size: 14px;
+}
+.brd-btm_green {
+    border-bottom: 1px solid #f4f4f4 !important;
+}
+.pdng10-2 {
+    padding: 10px 2px;
+}
+.mrgn0 {
+    margin: 0 !important;
+}
+.clr_white {
+    color: #fff!important;
+}
+.bg_green {
+    background: #97BE2E;
+}
+.customerPanelUser {
+    border-bottom: 1px solid #f4f4f4;
+    position: relative;
+    margin: 10px 0;
+}
+
+.customerPanelUser2 {
+    border-bottom: 1px solid #f4f4f4;
+    position: relative;
+    margin: 6px 0;
+}
+
+.pdng15 {
+    padding: 15px;
+}
+
+.mrgn0 {
+    margin: 0 !important;
+}
+
+.pdng0 {
+    padding: 0px !important;
+}
+
+.customerPanelUser img {
+    border-radius: 50%;
+}
+
+.customerPanelMoney {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.progressWrapper {
+    border-radius: 4px;
+    line-height: initial;
+}
+
+.clr_white {
+    color: #fff!important;
+}
+
+.bg_light-grey {
+    background: #ededed;
+}
+
+.progressWrapper .progressBarValue {
+    z-index: 2;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.progressWrapper .progressBar {
+    background: #00C0EF;
+    border-radius: 4px;
+}
+
+.relative {
+    position: relative;
+}
+
+.progressBar {
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.border-bottom{
+	border-bottom: none;
+}
+
+/* End Right Section CSS */
+
+
+
+/* 
+
+Employeer Css
+
+*/
+
+.customerPanel {
+    background: #fff;
+}
+
+.input-group .form-group{
+    padding: inherit;
+    margin: inherit;
+    width: inherit;
+    display: block;
+}
+
+.form-group input[type="text"]{
+    background-image: inherit;
+    background-size: inherit;
+    background-repeat: inherit;
+    background-position: inherit;
+    float: inherit;
+    font-weight: inherit;
+    left: inherit;
+    top: inherit;
+    height: 46px;
+    line-height: 1.3333333;
+    border-radius: 6px!important;
+    padding: 10px 16px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.form-group.is-focused .form-control{
+    background-image: inherit;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group .form-control:first-child{
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+
+.input-group-addon:last-child{
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+}
+
+.input-group-addon:last-child {
+    border-left: 0;
+}
+
+input[type="text"].form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6)!important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6)!important;
+}
+
+.cog-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 31px;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width100 tr{
+    color: grey;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.categoryOptions.closed {
+    color: #808080;
+}
+
+.categoryOptions {
+    position: absolute;
+    right: 6px;
+    top: 10px;
+    color: #9AC034;
+}
+
+.categoryOptions.closed:hover, .categoryOptions:hover {
+    color: #9AC034;
+    cursor: pointer;
+}
+
+.categoryOptions.closed i{
+    font-size: 14px;
+}
+
+.text-center a.btn-primary {
+    background-color: #9ac034!important;
+    border-color: #9ac034!important;
+    color: #ffffff!important;
+    transition: all 0.3s ease 0s!important;
+    padding: 5px 12px;
+}
+
+.mrgn20-0 {
+    margin: 30px 0!important;
+}
+
+.text-center a.btn-primary:hover, .text-center a.btn-primary:focus {
+    background-color: #242424!important;
+    border-color: #242424!important;
+    color: #ffffff!important;
+    transition: all 0.3s ease 0s!important;
+}
+
+h4 i.fa-taxi, h4 i.fa-user, h4 i.fa-glass-martini-alt{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+/* delivery-area CSS*/
+
+a i.fa-edit, i.fa-times{
+    color: #97be2e;
+
+}
+
+a i.fa-edit{
+    padding-right: 10px;
+}
+
+.customerPanelUser:nth-child(3) {
+    border-bottom: none;
+}
+
+
+.customerTable table tr.tbl-header {
+}
+
+tr.tbl-header th{
+    border-top: 6px solid #97BE2E;
+    background: inherit;
+    color: #000;
+    border: 1px solid #97BE2E;
+}
+
+h4.bg-h4{
+    color: #000!important;
+}
+
+.br-t{
+    border-top: 3px solid #00c0ef;
+}
+
+.br-t i.fa-truck{
+    margin: 0 7px;
+}
+
+.content{
+	padding: 0!important;
+}
+
+.padding-de{
+	padding: 0;
+}
+
+.customerTable table th{
+    background: #fff;
+    color: #000;
+    border: 1px solid #f4f4f4;
+}
+
+ tr.tbl-td1 td{
+    background: #F9F9F9;
+}
+
+
+
+.customerTable table tr.tbl-header {
+   
+}
+
+h4.tbl-header {
+    border-top: 6px solid #97BE2E;
+}
+
+.gry-c{
+    color: #000!important;
+}
+
+.bt-spix{
+   border-top: 3px solid #00C0EF;
+}
+
+.info-box{
+	display: block;
+    min-height: 100px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bg-aqua{
+    background-color: #00c0ef !important;
+}
+
+.info-box-content {
+    padding: 5px 10px;
+    margin-left: 90px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.info-box-text {
+    text-transform: uppercase;
+}
+
+.info-box-text {
+    display: block;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ 	font-family: Poppins,sans-serif;
+}
+
+.info-box-icon {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 100px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+    background: rgba(0,0,0,0.2);
+}
+
+span.info-box-number{
+	color: #333;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Poppins,sans-serif;
+}
+
+.bt-pix{
+    border-top: 3px solid #9ac034;
+}
+
+i.cus-track{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.mrgn20-1{
+    margin: 20px 0!important;
+}
+
+.fa-edit.paddR{
+    line-height: 1.42857143!important;
+    color: #fff;
+    padding-right: 0;
+}
+
+.invoice-to{
+    text-decoration: none
+}
+
+.invoice-to h3{
+    font-size: 24px
+}
+
+
+td.payment-release,tr.payment-release{
+      background: #e9ecef;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: #495057;
+}
