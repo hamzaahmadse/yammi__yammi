@@ -17,7 +17,7 @@
           <div class="row">
             <div class="left-menu-section" style="position: relative;right: 30px;">
               <p class="text-center" style="border-top:6px solid #9AC034;border-bottom:1px solid #DDD">
-                <a href="javascript:void(0);" data-target="#addCategory" data-toggle="modal" class="btn btn-primary mrgn10-0"><i class="fa fa-plus"></i> Add new category</a>
+                <a href="javascript:void(0);" data-target="#addCategory" data-toggle="modal" class="btn btn-primary mrgn10-0" style="margin: 20px;"><i class="fa fa-plus"></i> Add new category</a>
               </p>
 
               <div class="category">
@@ -155,7 +155,7 @@
                   </div>
 
                   <div class="col-xs-3 text-center pdng5-0">
-                    <a href="javascript:void(0);" data-target="#addNewItem" data-toggle="modal" class="btn btn-primary "><i class="fa fa-plus"></i> Add new Item</a>
+                    <a href="javascript:void(0);" data-target="#addNewItem" data-toggle="modal" class="btn btn-primary " style="display: block; margin:20px;"><i class="fa fa-plus"></i> Add new Item</a>
                   </div>
                 </div>
               </div>
@@ -926,8 +926,85 @@
       </div>
     </div>
 
+    <div class="modal fade in" id="addCategory" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document" style="width: 700px;margin: 30px auto;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+            <h4 class="modal-title">Add Category</h4>
+          </div>
+          <div class="modal-body text-center">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group cat-form-g">
+                  <label class="cat-img">Category Image</label>
+                  <div class="col-md-12">
+                    <img src="img/nofoto.jpg" alt="" id="imgTarget1" class="uploadPreview">
+                  </div>
+                  <div class="col-md-10 col-md-offset-1">
+                    <div class=" mrgn10-0">
+                      <div class="form-group stepsSelect" style="margin-bottom:0">
+                        <div class="custom-select">
+                          <select>
+                            <option>Select an Category</option>
+                            <option value="1">Category Image 1</option>
+                            <option value="2">Category Image 2</option>
+                            <option value="3">Category Image 3</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group row cat-form-g">
+                  <label class="cat-img">Category Banner</label>
+                  <div class="col-md-12">
+                    <img src="img/nofoto.jpg" alt="" id="imgTarget2" class="uploadPreview">
+                  </div>
+                  <div class="col-md-10 col-md-offset-1">
+                    <div class=" mrgn10-0">
+                      <div class="form-group stepsSelect" style="margin-bottom:0">
+                        <div class="custom-select">
+                          <select>
+                            <option>Select an image</option>
+                            <option value="1">Banner 1</option>
+                            <option value="2">Banner 2</option>
+                            <option value="3">Banner 3</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group cat-form-g">
+                  <label for="exampleInputEmail1">Category Name</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1">
+                </div>
+
+              </div>
+              <div class="col-md-6"><grammarly-extension class="_1KJtL" style="position: absolute; top: 0px; left: 0px; pointer-events: none;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 32px; left: 16px; width: 317px; height: 112px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;"><div style="height: 840px; width: 1683px;"></div><div style="position: absolute; top: 0px; left: 0px; height: 840px; width: 1683px;"></div></div></div></div><div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 32px; left: 16px; width: 317px; height: 112px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 104px; left: 305px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe">&nbsp;</div></div></div></div></div></div></div></div></grammarly-extension>
+                <div class="form-group" style="display: block;">
+                  <label for="exampleInputEmail1">Category Desc</label>
+                  <textarea class="form-control" rows="5" spellcheck="false" style="border-radius: 4px!important;"></textarea>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="modal-footer" style="border:1px solid #e5e5e5;    padding: 0;">
+            <a href="" data-toggle="tab" class="btn saveNcat">Save and Add New Category</a>
+            <a href="" data-toggle="tab" class="sa_cl">Save and Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 <style>
-  /*@import './../../public/css/menu-card.css';*/
+  @import './../assets/css/menu-card.css';
 </style>

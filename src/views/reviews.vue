@@ -1889,15 +1889,9 @@
   </div>
 </template>
 <style>
-  /*@import './../../public/css/partyservice.css';*/
-  /*@import './../../public/css/reviews.css';*/
 </style>
 <script>
-  import TestReview from '@/components/TestReview.vue'
   export default {
     name: 'reviews',
-    components: {
-      TestReview
-    }
   }
 </script>

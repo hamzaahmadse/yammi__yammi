@@ -365,7 +365,7 @@
           Shop Name <br> Username / Lastname <br> Shop Address &nbsp; Houseno. <br><br> City - Zipcode
         </p></div></td><td align="right"><div align="right" class="status"><table width="70%" style="margin-top: 10px; border-collapse: separate; border-spacing: 0px 5px;"><tbody><tr style="outline: rgb(242, 242, 242) solid 1px;"><th align="left" bgcolor=" #f2f2f2" style="margin-bottom: 2px;">Company</th><td align="right">Shop Name</td></tr><tr style="outline: rgb(242, 242, 242) solid 1px;"><th align="left" bgcolor=" #f2f2f2" style="margin-bottom: 2px;">Company ID</th><td align="right">De-10001</td></tr><tr style="outline: rgb(242, 242, 242) solid 1px;"><th align="left" bgcolor=" #f2f2f2" style="margin-bottom: 2px;">Invoice No.</th><td align="right">Yami-10001</td></tr><tr style="outline: rgb(242, 242, 242) solid 1px;"><th align="left" bgcolor=" #f2f2f2" style="margin-bottom: 2px;">Date - Time</th><td align="right">31.11.2017 – 00:00</td></tr><tr style="outline: rgb(242, 242, 242) solid 1px;"><th align="left" bgcolor=" #f2f2f2" style="margin-bottom: 2px;">Invoice For</th><td align="right" style="font-weight: bold;">Assignments</td></tr><tr style="outline: rgb(242, 242, 242) solid 1px;"><th align="left" bgcolor=" #f2f2f2" style="margin-bottom: 2px;">Status</th><td align="right" style="font-weight: bold;">Paid</td></tr></tbody></table></div></td></tr></tbody></table></div><br><div id="main-content"><h3 class="text-left">Assignment Payment Invoice 17.07.2017</h3>
 
-          <table width="100%" border="1" class="main Invoice__ItemTable">
+          <table style="width: 100%;" border="1" class="main Invoice__ItemTable">
             <tbody>
             <tr>
               <th>#</th>

@@ -1,5 +1,7 @@
+
 module.exports = {
   chainWebpack: config => {
+    config.module.rules.delete('eslint');
     config.module
       .rule('vue')
       .use('vue-loader')

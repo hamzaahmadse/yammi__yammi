@@ -11,6 +11,8 @@ import order from './order/index';
 import dinner from './dinners/index';
 import reservations from './reservations/index';
 import income from './income/index';
+import pos_system from './pos_system/index';
+import party_service from './party_service/index';
 import invoice from './invoice/index';
 import state from "./root_state";
 import mutations from "./root_mutations";
@@ -31,6 +33,8 @@ export default new Vuex.Store({
     dinner,
     reservations,
     income,
-    invoice
+    invoice,
+    pos_system,
+    party_service
   }
 });

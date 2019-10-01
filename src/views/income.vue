@@ -49,12 +49,12 @@
                           <td class="text-center">{{ del_income.total }}</td>
                           <td><a href="#" class="btn btn-danger">{{ del_income.status }}</a></td>
                           <td>
-                            <a href="#" class="btn btn-info" data-target="#add-orders-Popup" data-toggle="modal">View</a>
+                            <a href="#" class="btn btn-info" data-target="#myModal1" data-toggle="modal">View</a>
 
                           </td>
                         </tr>
 
-                      </tbody>
+                        </tbody>
 
                       </table></div></div><div class="row"><div class="col-sm-5"><div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 1 to 3 of 3 entries</div></div><div class="col-sm-7"><div class="dataTables_paginate paging_simple_numbers" id="example1_paginate"><ul class="pagination"><li class="paginate_button previous disabled" id="example1_previous"><a href="#" aria-controls="example1" data-dt-idx="0" tabindex="0">Previous</a></li><li class="paginate_button active"><a href="#" aria-controls="example1" data-dt-idx="1" tabindex="0">1</a></li><li class="paginate_button next disabled" id="example1_next"><a href="#" aria-controls="example1" data-dt-idx="2" tabindex="0">Next</a></li></ul></div></div></div></div>
                     </div>
@@ -92,7 +92,7 @@
                           <td class="text-center">{{ rest_income.total }}</td>
                           <td><a href="#" class="btn btn-warning">{{ rest_income.status }}</a></td>
                           <td>
-                            <a href="#" class="btn btn-info" data-target="#add-orders-Popup" data-toggle="modal">View</a>
+                            <a href="#" class="btn btn-info" data-target="#myModal1" data-toggle="modal">View</a>
 
                           </td>
                         </tr>
@@ -1331,20 +1331,20 @@
 </style>
 
 <script>
-    import {mapState} from 'vuex';
-    export default {
-        name: 'income',
-        data(){
-            return {
+  import {mapState} from 'vuex';
+  export default {
+    name: 'income',
+    data(){
+      return {
 
-            }
-        },
-        computed: {
-            ...mapState({
-                income: (state)=>{
-                    return state.income;
-                }
-            })
+      }
+    },
+    computed: {
+      ...mapState({
+        income: (state)=>{
+          return state.income;
         }
+      })
     }
+  }
 </script>

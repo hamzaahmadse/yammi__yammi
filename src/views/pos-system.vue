@@ -36,54 +36,19 @@
                           </thead>
                           <tbody>
 
-
-
-
-
-
-                          <tr role="row" class="odd">
-                            <td class="sorting_1">Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Deliver/ Restaurnats</td>
+                          <tr role="row" class="odd" v-for="new_invoice in pos_system.pos_system.new_invoice">
+                            <td class="sorting_1">{{ new_invoice.name }}</td>
+                            <td>{{ new_invoice.id }}</td>
+                            <td>{{ new_invoice.contract }}</td>
+                            <td><label class="label label-success">{{ new_invoice.status }}</label></td>
+                            <td>{{ new_invoice.type }}</td>
                             <td>
 
                               <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
                               <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
 
                             </td>
-                          </tr><tr role="row" class="even"><td class="sorting_1">Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Dinners/ Delivery</td>
-                            <td>
-                              <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
-                              <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
-
-                            </td>
-                          </tr><tr role="row" class="odd"><td class="sorting_1">Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Delivery</td>
-                            <td>
-                              <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
-                              <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
-
-                            </td>
-                          </tr><tr role="row" class="even"><td class="sorting_1">Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Dinners</td>
-                            <td>
-                              <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
-                              <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
-
-                            </td>
-                          </tr></tbody>
+                          </tr> </tbody>
 
                         </table></div></div><div class="row"><div class="col-sm-5"><div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 1 to 4 of 4 entries</div></div><div class="col-sm-7"><div class="dataTables_paginate paging_simple_numbers" id="example1_paginate"><ul class="pagination"><li class="paginate_button previous disabled" id="example1_previous"><a href="#" aria-controls="example1" data-dt-idx="0" tabindex="0">Previous</a></li><li class="paginate_button active"><a href="#" aria-controls="example1" data-dt-idx="1" tabindex="0">1</a></li><li class="paginate_button next disabled" id="example1_next"><a href="#" aria-controls="example1" data-dt-idx="2" tabindex="0">Next</a></li></ul></div></div></div></div>
                       </div>
@@ -102,52 +67,20 @@
                           </tr>
                           </thead>
                           <tbody>
-                          <tr>
-                            <td>Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Deliver/ Restaurnats</td>
+
+                          <tr role="row" class="odd" v-for="dinner in pos_system.pos_system.dinners">
+                            <td class="sorting_1">{{ dinner.name }}</td>
+                            <td>{{ dinner.id }}</td>
+                            <td>{{ dinner.contract }}</td>
+                            <td><label class="label label-success">{{ dinner.status }}</label></td>
+                            <td>{{ dinner.type }}</td>
                             <td>
+
                               <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
                               <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
 
                             </td>
                           </tr>
-                          <tr><td>Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Dinners</td>
-                            <td>
-                              <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
-                              <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
-
-                            </td>
-                          </tr>
-                          <tr><td>Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Delivery/ Dinners</td>
-                            <td>
-                              <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
-                              <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
-
-                            </td>
-                          </tr>
-                          <tr><td>Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Delivery</td>
-                            <td>
-                              <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
-                              <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
-
-                            </td>
-                          </tr>
-
 
                           </tbody>
 
@@ -168,52 +101,19 @@
                           </tr>
                           </thead>
                           <tbody>
-                          <tr>
-                            <td>Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Deliver/ Restaurnats</td>
+                          <tr role="row" class="odd" v-for="resturant in pos_system.pos_system.resturants">
+                            <td class="sorting_1">{{ resturant.name }}</td>
+                            <td>{{ resturant.id }}</td>
+                            <td>{{ resturant.contract }}</td>
+                            <td><label class="label label-success">{{ resturant.status }}</label></td>
+                            <td>{{ resturant.type }}</td>
                             <td>
+
                               <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
                               <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
 
                             </td>
                           </tr>
-                          <tr><td>Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Deliver/ Dinners</td>
-                            <td>
-                              <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
-                              <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
-
-                            </td>
-                          </tr>
-                          <tr><td>Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Dinners</td>
-                            <td>
-                              <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
-                              <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
-
-                            </td>
-                          </tr>
-                          <tr><td>Shop Name</td>
-                            <td>YamiYami-120</td>
-                            <td>17:20-19.04.2019</td>
-                            <td><label class="label label-success">Active</label></td>
-                            <td>Delivery</td>
-                            <td>
-                              <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="btn btn-info"><i class="fa fa-eye"></i></a>
-                              <a href="#" class="btn btn-success"><i class="fas fa-times"></i></a>
-
-                            </td>
-                          </tr>
-
 
                           </tbody>
 
@@ -952,7 +852,20 @@
   /*@import './../../public/css/pos.css';*/
 </style>
 <script>
-export default {
-name: 'pos-system'
-}
+  import {mapState} from 'vuex';
+  export default {
+    name: 'pos-system',
+    data(){
+      return {
+
+      }
+    },
+    computed: {
+      ...mapState({
+        pos_system: (state)=>{
+          return state.pos_system;
+        }
+      })
+    }
+  }
 </script>
