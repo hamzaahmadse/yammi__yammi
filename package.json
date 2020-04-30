@@ -14,7 +14,7 @@
     "chartist": "^0.11.4",
     "dropd": "^0.4.0",
     "eslint-loader": "^2.1.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "material": "^0.4.1",
     "material-dashboard": "^1.2.0",
     "moment": "^2.24.0",
