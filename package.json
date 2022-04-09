@@ -17,7 +17,7 @@
     "jquery": "^3.4.1",
     "material": "^0.4.1",
     "material-dashboard": "^1.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "popper.js": "^1.15.0",
     "select2": "^4.0.10",
     "shebang-loader": "0.0.1",
